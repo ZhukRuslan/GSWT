@@ -1,0 +1,75 @@
+/* font-family: 'Roboto', sans-serif; */
+:root {
+  --main-color-website: #ffffff;
+  --primary-bgr-color: #f1f1f2;
+  --secondary-bgr-color: #f7941e;
+  --auxiliary-bgr-color: #231f20;
+  --main-color: #000000;
+  --secondary-color: #f7941e;
+  --hed-color: #fafafa;
+}
+body {
+  background-color: var(--main-color-website);
+  color: var(--main-color);
+
+  font-family: "Georama", sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  background-color: var(--hed-color);
+}
+.nav-link {
+  color: var(--main-color);
+
+  font-size: 18px;
+  line-height: 1.2;
+}
+.secondaru-btn {
+  color: var(--secondary-bgr-color);
+
+  font-family: "Georama", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  border: 1px solid var(--secondary-bgr-color);
+  border-radius: 5px;
+}
+
+/* Hero Side */
+.hero-side {
+  background-color: var(--primary-bgr-color);
+}
+.hero-title {
+  color: var(--main-color);
+
+  font-size: 56px;
+  line-height: 1.2;
+}
+.hero-text {
+  color: var(--main-color);
+
+  font-size: 20px;
+  line-height: 1.4;
+}
+.primary-btn {
+  background-color: var(--secondary-bgr-color);
+  color: var(--main-color-website);
+
+  font-family: "Georama", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  border: 1px solid var(--secondary-bgr-color);
+  border-radius: 5px;
+}
+
+/* Feature Split */
