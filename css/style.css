@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-color-website: #ffffff;
   --primary-bgr-color: #f1f1f2;
   --secondary-bgr-color: #f7941e;
@@ -6,7 +6,7 @@
   --main-color: #000000;
   --secondary-color: #f7941e;
   --hed-color: #fafafa;
-}
+} */
 body {
   background-color: var(--main-color-website);
   color: var(--main-color);
